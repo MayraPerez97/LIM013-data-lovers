@@ -422,7 +422,6 @@ h3 {
     margin-bottom: 30px;
     margin-left: 25px;
     text-align: center;
-    /* color:yellow; */
     color: white;
 }
 
@@ -430,7 +429,6 @@ h3 {
 .listCharacters img{
     width: 200px;
     border-radius: 50%;
-    /* margin: 24px; */
     margin-top: 30px;
     margin-right: 24px;
     margin-bottom: 30px;
@@ -492,17 +490,14 @@ h3 {
 
 .overlay .description {
     display: block;
-    /* background: rgba(0, 0, 0, 1); */
     background-color: whitesmoke;
     padding: 20px;
     text-align: center;
-    /* color: white; */
     color: #052535;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 0.08em;
-    /* border: 2px solid #94E858; */
     border-radius: 0px 0px 8px 8px;
     width: 300px;
     height: 200px;
@@ -556,7 +551,6 @@ h3 {
     margin: 5px;
     transition: 0.4s;
     color: white;
-    /* color: #c4d54a;; */
     font-family: 'Balsamiq Sans', cursive;
     font-size: 18px;
 	text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
@@ -564,7 +558,6 @@ h3 {
 }
 
 .buttonsContainer button:hover {
-    /* background-color:#093756; */
     background-color: #0c676f;
     color:#c4d54a;
 }

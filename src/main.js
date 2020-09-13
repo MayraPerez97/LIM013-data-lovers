@@ -61,48 +61,6 @@ const getListZtoA = () => {
 }
 document.querySelector('#orderZtoA').addEventListener('click', getListZtoA);
 
-
-
-window.addEventListener('load', () => {
-    document.getElementById('listCharacters').classList.add('images-loaded');
-    const categoriesLinks = document.querySelectorAll('#topnav a');
-    const speciesLinks = document.querySelectorAll('#listSpecies a');
-    const genderLinks = document.querySelectorAll('#listGender a');
-    const statusLinks = document.querySelectorAll('#listStatus a');
-
-    categoriesLinks.forEach((element) => {
-        element.addEventListener('click', (event) => {
-            event.preventDefault();
-            categoriesLinks.forEach((categoriesLinks) => categoriesLinks.classList.remove('active'));
-            event.target.classList.add('active');
-        });
-    });
-    speciesLinks.forEach((element) => {
-        element.addEventListener('click', (event) => {
-            event.preventDefault();
-            speciesLinks.forEach((speciesLinks) => speciesLinks.classList.remove('active'));
-            event.target.classList.add('active');
-        });
-    });
-    genderLinks.forEach((element) => {
-        element.addEventListener('click', (event) => {
-            event.preventDefault();
-            genderLinks.forEach((genderLinks) => genderLinks.classList.remove('active'));
-            event.target.classList.add('active');
-        });
-    });
-    statusLinks.forEach((element) => {
-        element.addEventListener('click', (event) => {
-            event.preventDefault();
-            statusLinks.forEach((statusLinks) => statusLinks.classList.remove('active'));
-            event.target.classList.add('active');
-        });
-    });
-
-})
-
-
-
 const overlay = document.getElementById('overlay');
 
 const clickToShowCharacterDetail = (characterElement) => {
@@ -122,7 +80,6 @@ const clickToShowCharacterDetail = (characterElement) => {
         </div>
      `;
 };
-
 
 document.querySelector('#btn-close').addEventListener('click', () => {
     overlay.classList.remove('active');
@@ -157,7 +114,6 @@ function drawCharactersPage(index, arrayOfCharacters) {
         elementOrderedList.appendChild(elementDiv);
     }
 }
-
 
 function drawResults(arrayOfCharacters) {
 
