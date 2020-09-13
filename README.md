@@ -60,9 +60,9 @@ Prototypes
 
 1. Low Fidelity
 
-![Low desktop prototype](src/images/low desktop prototype.png)
+![Low desktop prototype](src/images/lowdesktopprototype.png)
 
-![Low mobile prototype](src/images/low mobile prototype.png)
+![Low mobile prototype](src/images/lowmobileprototype.png)
 
 2. Hight Fidelity
 
