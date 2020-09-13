@@ -66,5 +66,5 @@ Prototypes
 
 2. Hight Fidelity
 
-![High fidelity prototype](src/images/high_fidelity.png)
+![High fidelity prototype](src/images/high.png)
 
