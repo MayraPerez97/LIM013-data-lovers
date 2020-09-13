@@ -1,6 +1,6 @@
 # THE RICK & MORTY DATA 
 
-## Índice
+## Index
 
 * [1. Introduction](#1-introduction)
 * [2. Product Definition](#2-product-definition)
